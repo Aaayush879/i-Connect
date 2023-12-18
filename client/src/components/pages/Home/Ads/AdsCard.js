@@ -101,7 +101,7 @@ export const AdsCard = ({ ads }) => {
       />
 
       {ads.picture.length > 0 && (
-        <img width="100%" src={`/${ads.picture[0]}`} alt={ads.picture[0]} />
+        <img width="100%" src={ads.picture[0]} alt={ads.picture[0]} />
       )}
       <CardContent className="py-1">
         <Typography variant="body1" component="p">
